@@ -31,34 +31,93 @@
         <h1>Bienvenido a Mi Portafolio</h1>
         <p>Este es un ejemplo de cómo usar Bootstrap en tu proyecto.</p>
         <div class="row">
+            <!-- Proyecto 1 -->
             <div class="col-md-4">
                 <div class="card">
                     <img src="images/nickyJam.jpeg" class="card-img-top" alt="Proyecto 1">
                     <div class="card-body">
                         <h5 class="card-title">Proyecto 1</h5>
                         <p class="card-text">Descripción breve del proyecto 1.</p>
-                        <a href="#" class="btn btn-primary">Ver más</a>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#modalProyecto1">Ver más</button>
                     </div>
                 </div>
             </div>
+
+            <!-- Proyecto 2 -->
             <div class="col-md-4">
                 <div class="card">
                     <img src="images/drake.jpeg" class="card-img-top" alt="Proyecto 2">
                     <div class="card-body">
                         <h5 class="card-title">Proyecto 2</h5>
                         <p class="card-text">Descripción breve del proyecto 2.</p>
-                        <a href="#" class="btn btn-primary">Ver más</a>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#modalProyecto2">Ver más</button>
                     </div>
                 </div>
             </div>
+
+            <!-- Proyecto 3 -->
             <div class="col-md-4">
                 <div class="card">
                     <img src="images/donOmar.jpeg" class="card-img-top" alt="Proyecto 3">
                     <div class="card-body">
                         <h5 class="card-title">Proyecto 3</h5>
                         <p class="card-text">Descripción breve del proyecto 3.</p>
-                        <a href="#" class="btn btn-primary">Ver más</a>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#modalProyecto3">Ver más</button>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Proyecto 1 (Nicky Jam) -->
+    <div class="modal fade" id="modalProyecto1" tabindex="-1" aria-labelledby="modalProyecto1Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalProyecto1Label">Nicky Jam</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Nicky Jam es un cantante de reguetón y música urbana. Su estilo musical ha influido en generaciones y ha creado muchos éxitos internacionales.</p>
+                    <p>Escucha su música en <a href="https://open.spotify.com/artist/0kW3aFXkljvMbMlU8wwSje" target="_blank">Spotify</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Proyecto 2 (Drake) -->
+    <div class="modal fade" id="modalProyecto2" tabindex="-1" aria-labelledby="modalProyecto2Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalProyecto2Label">Drake</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Drake es un rapero, cantante y productor musical canadiense, conocido por sus múltiples éxitos y su capacidad para fusionar géneros.</p>
+                    <p>Escucha su música en <a href="https://open.spotify.com/artist/3TVXtAsR1Inumwj472S9r4" target="_blank">Spotify</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para Proyecto 3 (Don Omar) -->
+    <div class="modal fade" id="modalProyecto3" tabindex="-1" aria-labelledby="modalProyecto3Label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalProyecto3Label">Don Omar</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Don Omar es un cantante y actor puertorriqueño, conocido por sus éxitos en el reguetón y la música latina.</p>
+                    <p>Escucha su música en <a href="https://open.spotify.com/artist/2TYpV9wxaDOrx3rmblnV2Z" target="_blank">Spotify</a></p>
                 </div>
             </div>
         </div>
